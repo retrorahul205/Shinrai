@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/internal_bg">
+
+
+
+    <Toolbar
+        android:id="@+id/toolbarsetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ADA1C9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:text="@string/settings"
+            android:fontFamily="sans-serif-condensed-light"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <ImageButton
+            android:id="@+id/buttonprofilesetting"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="#ADA1C9"
+            android:importantForAccessibility="no"
+            android:padding="5dp"
+            android:src="@drawable/baseline_exit_to_app_24"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="4dp" />
+    </Toolbar>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch1"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="@string/display_over_other_apps"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="#30ffffff"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch2"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="@string/lock_the_new_app"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="#30ffffff"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"/>
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch3"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="@string/biometric_authentication"
+        android:textSize="20sp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:background="#30ffffff"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>

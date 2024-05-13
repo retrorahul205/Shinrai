@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Shinrai</string>
+    <string name="shinrai">SHINRAI</string>
+    <string name="image">image</string>
+    <string name="username">Username</string>
+    <string name="sign_in">Sign IN</string>
+    <string name="password">Password</string>
+    <string name="rahul_chaudhary">Rahul Chaudhary</string>
+    <string name="profile">PROFILE</string>
+    <string name="rahulchaudhary_shinrai_com">rahulchaudhary@shinrai.com</string>
+    <string name="sign_in_with_google">Sign in with Google</string>
+    <string name="log_in">LOG IN</string>
+    <string name="display_over_other_apps">Display over other apps</string>
+    <string name="biometric_authentication">Biometric Authentication</string>
+    <string name="lock_the_new_app">Lock the new app</string>
+    <string name="settings">Settings</string>
+</resources>

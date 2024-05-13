@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group
+    android:id="@+id/group1"
+    >
+    <item
+        android:icon="@drawable/baseline_account_box_24"
+        android:id="@+id/profile"
+        android:title="Profile"
+        />
+
+<!--    <item-->
+<!--        android:icon="@drawable/baseline_person_24"-->
+<!--        android:id="@+id/settings"-->
+<!--        android:title="Login"-->
+<!--        />-->
+</group>
+<group
+    android:id="@+id/group2"
+    >
+    <item
+        android:icon="@drawable/baseline_perm_device_information_24"
+        android:id="@+id/help"
+        android:title="Permissions"
+        />
+</group>
+<group
+    android:id="@+id/group3"
+    >
+    <item
+        android:icon="@drawable/baseline_add_reaction_24"
+        android:id="@+id/share"
+        android:title="Email Us"
+        />
+    <item
+        android:icon="@drawable/baseline_share_24"
+        android:id="@+id/weblink"
+        android:title="Our Website"
+        />
+
+</group>
+
+
+
+
+
+</menu>

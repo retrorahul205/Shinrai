@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "305281914581",
+    "project_id": "shinrai-c1877",
+    "storage_bucket": "shinrai-c1877.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305281914581:android:99f40a994ce9e25ec5745c",
+        "android_client_info": {
+          "package_name": "com.example.shinrai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDfMCAmGknVbk1Ui7Jskwd_ZUNRdo40ceg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
